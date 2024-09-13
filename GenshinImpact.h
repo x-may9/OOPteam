@@ -16,11 +16,13 @@ class Hero
     //开始编写
 };
 
+
 class Account
 {
     private:
         int UID;
         LinkList<Hero> link;
+        Account *next;
 
     /*根据OOP研讨1.pdf功能所描述的需求，编写7个函数，
         可以参考Lab3Banking.cpp ，
@@ -30,3 +32,4 @@ class Account
 
 };
 #endif
+
